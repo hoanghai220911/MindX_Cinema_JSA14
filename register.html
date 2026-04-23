@@ -10,26 +10,66 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      body {
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 30;
+        font-style: normal;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body
+    style="
+      background-image: url(./assets/Gemini_Generated_Image_vc2ovnvc2ovnvc2o.png);
+    "
+  >
     <div
       class="container vh-100 d-flex justify-content-center align-items-center"
     >
       <div class="mb-3 card shadow p-5" style="width: 400px">
-        <h1 class="mb-3">Register</h1>
-        <input class="form-control mb-3" type="text" placeholder="Username" />
-        <input class="form-control mb-3" type="email" placeholder="Email" />
+        <h1 class="mb-3 fw-bold">Register</h1>
+        <input
+          class="form-control mb-3"
+          type="text"
+          placeholder="Username"
+          id="txt-username"
+        />
+        <input
+          class="form-control mb-3"
+          type="email"
+          placeholder="Email"
+          id="txt-email"
+        />
         <input
           class="form-control mb-3"
           type="password"
           placeholder="Password"
+          id="txt-password"
+        />
+        <input
+          class="form-control mb-3"
+          type="password"
+          placeholder="Confirm Password"
+          id="txt-confirm-password"
         />
         <div class="mb-3">
-          <a href="./login.html" class="text-danger fw-bolder text-decoration-none mb-3"
+          <a
+            href="./login.html"
+            class="text-danger fw-bold text-decoration-none mb-3"
             >Already have an account?</a
           >
         </div>
-        <button class="btn btn-danger fw-bolder">Create a new account</button>
+        <button class="btn btn-danger fw-bold" id="registerBtn">
+          Create a new account
+        </button>
       </div>
     </div>
   </body>

@@ -52,14 +52,14 @@ a {
   outline: none;
   border: none;
   background: var(--dark-lighten);
-  color: white;
+  color: bisque;
   transition: 0.3s;
   padding: 12px 24px;
   border-radius: 6px;
   display: flex;
   align-items: center;
   gap: 8px;
-  white-space: nowrap;
+  bisque-space: nowrap;
 }
 
 .btn:hover {
@@ -207,12 +207,12 @@ footer > div {
   text-wrap: nowrap;
   border: none;
   outline: none;
-  background: white;
+  background: bisque;
   padding: 8px 12px;
   display: flex;
   align-items: center;
   gap: 6px;
-  background: white;
+  background: bisque;
   transition: 0.3s;
 }
 
